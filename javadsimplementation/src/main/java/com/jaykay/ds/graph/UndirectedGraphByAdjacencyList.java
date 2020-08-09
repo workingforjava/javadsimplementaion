@@ -40,7 +40,7 @@ public class UndirectedGraphByAdjacencyList {
 
 	}
 
-	private void addEdge(int from, int to) {
+	public void addEdge(int from, int to) {
 		adjacencyList.get(from).add(to);
 		adjacencyList.get(to).add(from);
 	}
